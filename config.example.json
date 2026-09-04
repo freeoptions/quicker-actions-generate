@@ -1,0 +1,14 @@
+{
+  "host": "127.0.0.1",
+  "port": 17321,
+  "apiBaseUrl": "https://xproxy.ai/v1",
+  "apiKey": "",
+  "apiKeyEnv": "OPENAI_API_KEY",
+  "model": "gpt-5.4-mini",
+  "quickerInstallDir": "C:\\Program Files\\Quicker",
+  "quickerSkillDir": "C:\\Users\\Administrator\\.codex\\skills\\quicker-skill",
+  "generationMode": "auto",
+  "csharpBuildTimeoutMs": 120000,
+  "outputDir": "D:\\D盘-Downloads\\quicker-actions",
+  "samplesDir": ".\\samples"
+}
