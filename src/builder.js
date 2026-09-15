@@ -210,6 +210,16 @@ function collectPlanVariables(steps, vars = new Map()) {
         addVariable(vars, step.successVar, 2);
         addVariable(vars, step.savedPathVar, 0);
         break;
+      case "run_program":
+        addVariable(vars, step.successVar, 2);
+        addVariable(vars, step.exitCodeVar, 12);
+        addVariable(vars, step.pidVar, 12);
+        addVariable(vars, step.mainWinHandleVar, 12);
+        addVariable(vars, step.mainWinTitleVar, 0);
+        addVariable(vars, step.stdoutVar, 0);
+        addVariable(vars, step.stdoutOnlyVar, 0);
+        addVariable(vars, step.stderrVar, 0);
+        break;
       default:
         addVariable(vars, step?.outputVar, step?.outputType ?? 0);
         addVariable(vars, step?.inputVar, 0);
